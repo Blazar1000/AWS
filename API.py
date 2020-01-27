@@ -4,8 +4,6 @@
 from flask import Flask, request, session, make_response, redirect, url_for, redirect, render_template, g, abort, flash, Markup, send_file
 from  flask_admin import Admin
 import flask_login as login
-
-
 from flask_sqlalchemy import SQLAlchemy
 import json
 import os
