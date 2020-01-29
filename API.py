@@ -50,6 +50,8 @@ app.secret_key = 'SECRET_KEY'
 
 @app.route('/recipes', methods=['GET, POST'])
 def recipes():
+    a = request.args.get('recipe')
+    b = request.form['recipe']
     
     
     return render_template('recipes.html')
